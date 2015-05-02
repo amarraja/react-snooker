@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<style type="text/css">
+
+			.balls-list {
+				display: block;
+				clear:both;
+				text-align: center;
+			}
+
+			.balls-list li {
+				display: inline-block;
+				margin-right: 10px;
+				list-style-type: none;
+			}
+
+			.balls-list li div.count {
+				position:relative;
+				top: 36px;
+				color: #fff;
+			}
+
+			.ball{
+				display: block;
+				width: 100;
+				height: 100;
+				background: black;
+				border-radius: 50%;
+			}
+
+			.ball-red{
+				background: radial-gradient(circle at 33px 33px, #FF0F21, #000);
+			}
+
+			.ball-yellow{
+				background: radial-gradient(circle at 33px 33px, #FFF71F, #000);
+			}
+
+			.ball-green{
+				background: radial-gradient(circle at 33px 33px, #156F03, #000);
+			}
+
+			.ball-brown{
+				background: radial-gradient(circle at 33px 33px, #935700, #000);
+			}
+
+			.ball-blue{
+				background: radial-gradient(circle at 33px 33px, #5cabff, #000);
+			}
+
+			.ball-pink{
+				background: radial-gradient(circle at 33px 33px, #F453B3, #000);
+			}
+
+			.ball-black{
+				background: radial-gradient(circle at 50px 50px, #424242, #000);
+			}
+
+			.players{
+				text-align: center;
+				background-color: #000;
+				color: #fff;
+			}
+
+			.player{
+				margin: 10px;
+			}
+
+			.player.active{
+				color: #F2EB00;
+			}
+
+			.scores li{
+				list-style-type: none;
+				display: inline-block;
+				background-color: #D8A500;
+				width: 60px;
+				margin: 5px;
+				line-height: 30px;
+				font-size: 20px;
+			}
+
+			.scores li:first-child{
+				margin-right: 4px;
+			}
+			.scores{
+				display: inline-block;
+				padding: 0px;
+			}
+
+			button.miss{
+				margin: 10px auto;
+				width: 300px;
+				display: block;
+				clear:both;
+				line-height: 40px;
+			}
+
+
+		</style>
+		</html>
+	</head>
+
+	<body>
+		<div id="react-container"></div>
+
+		<script type="text/javascript" src="scripts/react.js"></script>
+		<script type="text/javascript" src="scripts/myapp.js"></script>
+	</body>
+</html>
